@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Planning Poker</string>
+
+    <string name="create_room">Create room</string>
+    <string name="join_room">Join room</string>
+
+    <string name="label_username">User Name</string>
+    <string name="label_room_id">Room ID</string>
+
+    <string name="room_title">Room ID: %s</string>
+
+    <string name="qr_code">QR Code</string>
+
+    <string name="action_start_voting">Start voting</string>
+    <string name="action_show_results">Show results</string>
+    <string name="voting_complete">Voting complete!</string>
+    <string name="voted">Voted</string>
+    <string name="leave_room">Leave Room</string>
+    <string name="error_title">Ops!</string>
+
+    <string name="network_error">A network error occurred. Please, check your connection.</string>
+    <string name="room_not_found">No room was found with the given ID.</string>
+    <string name="invalid_user_name">User name should contain at least three characters.</string>
+
+    <plurals name="vote_count">
+        <item quantity="zero">No Votes</item>
+        <item quantity="one">%1$d Vote</item>
+        <item quantity="other">%1$d Votes</item>
+    </plurals>
+</resources>
